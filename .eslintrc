@@ -1,0 +1,26 @@
+{
+  "globals": {
+    "document": true,
+    "foo": true,
+    "window": true
+  },
+  "rules": {
+      "quotes": ["error", "single"],
+      "no-alert": 0,
+      "no-console": 0,
+      "func-names": 0,
+      "semi": [4, "never"],
+      "javascript.validate.enable": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jquery": true
+  },
+  "extends": "eslint:recommended"
+}
