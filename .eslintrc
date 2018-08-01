@@ -9,7 +9,7 @@
       "no-alert": 0,
       "no-console": 0,
       "func-names": 0,
-      "semi": [4, "never"],
+      "semi": [4, "always"],
       "javascript.validate.enable": false
   },
   "parserOptions": {
