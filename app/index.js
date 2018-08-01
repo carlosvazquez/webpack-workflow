@@ -4,7 +4,6 @@ import 'styles/index.scss';
 const win = window;
 
 $(() => {
-  alert('hola');
   // On resize window
   $(win).resize(() => {
   })
