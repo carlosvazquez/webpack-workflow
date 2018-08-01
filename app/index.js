@@ -4,7 +4,10 @@ import 'styles/index.scss';
 const win = window;
 
 $(() => {
+    var hola = () => {
+        return 'hola'
+    }
   // On resize window
   $(win).resize(() => {
   })
-})
+});
