@@ -34,7 +34,12 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
-            template: path.join(__dirname, 'index.html')
+            title: "Test Frontend",
+            minify:{
+                collapseWhitespace: false
+            },
+            hash: true,
+            template: path.join(__dirname, '/src/index.pug')
         })
     ],
     module: {
@@ -60,6 +65,21 @@ module.exports = {
                             sourceMap: config.isDev
                         }
                     },
+                ]
+            },
+
+            // PUG
+            {
+                test: /\.pug$/,
+                use: [
+                    {
+                        loader: 'html-loader',
+                        options: {}
+                    },
+                    {
+                        loader: 'pug-html-loader',
+                        options: {}
+                    }
                 ]
             },
 
