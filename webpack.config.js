@@ -78,7 +78,7 @@ module.exports = {
                     },
                     {
                         loader: 'pug-html-loader',
-                        options: {}
+                        options: { pretty: true }
                     }
                 ]
             },
