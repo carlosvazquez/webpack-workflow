@@ -8,10 +8,11 @@
       "quotes": ["error", "single"],
       "no-alert": 0,
       "no-console": 0,
-      "func-names": 0,
+      "func-names": 2,
       "semi": [2],
       "javascript.validate.enable": false,
-      "indent": ["error", 4]
+      "indent": ["error", 4],
+      "no-use-before-define": [0]
   },
   "parserOptions": {
     "ecmaVersion": 6,
